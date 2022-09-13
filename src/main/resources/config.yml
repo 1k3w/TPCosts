@@ -1,0 +1,14 @@
+#bypass permission: tpCosts.bypass
+
+messages:
+    teleported: "You Teleported {blocks} and it cost you {cost}!"
+    denied: "You can teleport {blocks} because you do not have enough XP ({cost})"
+
+whitelist:
+    - "spawn" # world name for spawn
+
+amount: 2
+per: 100 #this would be:  blocks / per * amount. if you TP'd 200 blocks, with a cost of 2 it would be :
+
+#200 / 100 = 2
+#2 * cost = 4. 4 levels / XP levels would be taken!
